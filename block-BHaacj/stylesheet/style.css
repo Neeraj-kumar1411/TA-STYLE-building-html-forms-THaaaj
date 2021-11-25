@@ -1,0 +1,367 @@
+@import url("reset.css");
+@import url("global.css");
+@import url("flex.css");
+
+* {
+  box-sizing: border-box;
+}
+
+.active {
+  color: rgb(15, 224, 231);
+}
+.header-box {
+  width: 80%;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+
+.logo-heading {
+  font-size: 45px;
+  font-weight: 800;
+  color: black;
+  /* border: 1px solid black; */
+}
+
+.list {
+  margin-left: 30px;
+}
+.header-tag {
+  color: black;
+  font-weight: 800;
+}
+
+.logo-box {
+  /* border: 1px solid black; */
+}
+
+/* main...... */
+
+.main {
+  background: #e6e6e6;
+}
+.container2 {
+  max-width: 100vw;
+  width: 90%;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+.hero-section {
+  /* height: 500px; */
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  padding: 30px 0;
+}
+h1 {
+}
+.header-box {
+  /* padding-top: 50px; */
+}
+
+.let-begin {
+  font-size: 45px;
+  color: white;
+  font-weight: 700;
+  /* padding-top: 50px; */
+}
+.we-assist-you {
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.down-arrow {
+  width: 30px;
+  height: 30px;
+  background: aquamarine;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+form {
+  max-width: 800px;
+  width: 90%;
+  /* height: 300px; */
+  /* border: 1px solid blue; */
+  background-color: white;
+  margin: 0 0 0 150px;
+  padding: 20px 10px;
+  /* overflow: hidden; */
+}
+legend {
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+input {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  color: gray;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  border: 0;
+}
+.submit {
+  width: 100%;
+  background: #69c6ba;
+  color: white;
+  font-weight: 700;
+  margin-top: 32px;
+}
+
+/* ....journey-section */
+.journey-section {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.journey-section-h2 {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+.journey-section-para {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.journey-btn {
+  background: cyan;
+  margin-top: 30px;
+}
+.journey-btn a {
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+/* img-section.... */
+.box1 {
+  width: 100%;
+  background: white;
+}
+.img-box1 {
+  width: 50%;
+  /* border: 1px solid black; */
+  font-size: 0;
+}
+.article-container {
+  width: 50%;
+  /* border: 1px solid black; */
+  position: relative;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+.article1 {
+  width: 100%;
+  background: #69c6ba;
+  padding: 25px 25px;
+  margin-right: 20px;
+  position: absolute;
+  right: 30px;
+}
+.pre-next-button {
+  /* width: 70px; */
+  /* height: 45px; */
+  /* border: 1px solid black; */
+  position: absolute;
+  right: 695px;
+}
+.p-n-btn {
+  padding: 10px 13px;
+  /* border: 1px solid black; */
+  background: rgba(102, 91, 91, 0.5);
+  color: white;
+  margin-right: 5px;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+.arrow {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.article-btn1 {
+  font-size: 17px;
+  background: white;
+  color: #69c6ba;
+  font-weight: 700;
+  padding: 15px 8px;
+  margin-top: 30px;
+  border: none;
+}
+.article-para {
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px 0;
+  color: white;
+}
+
+/* article2 */
+
+.article2 {
+  width: 100%;
+  background: #c66995;
+  padding: 30px 30px;
+  position: absolute;
+  left: 30px;
+}
+.article-container2 {
+  width: 50%;
+  position: relative;
+}
+.article-btn2 {
+  color: #c66995;
+}
+.image-box2 {
+  width: 50%;
+}
+.pre-next-button2 {
+  position: absolute;
+  left: 680px;
+}
+
+/* map-section */
+.map-section {
+  background: #69c6ba;
+}
+.map:hover {
+  background-color: #c66995;
+}
+.country-name {
+  font-size: 16px;
+  font-weight: 800;
+  color: white;
+}
+
+/* hotel----section */
+
+.hotel {
+  width: 100%;
+  background: white;
+  padding: 50px 0;
+  margin: 0 auto;
+  /* height: 200px; */
+  /* border: 1px solid rgb(109, 106, 106); */
+}
+.hotel-img-name-price-box {
+  margin: 20px 0;
+}
+.curve {
+  background: #69c6ba;
+  color: white;
+  font-weight: 800;
+  font-size: 0;
+}
+.dolor {
+  /* background: #69c6ba; */
+  /* font-size: 0; */
+
+  /* display: block; */
+  /* width: 500px; */
+  font-size: 16px;
+}
+.hotel-para {
+  background: white;
+  padding-left: 15px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.hotel-h4 {
+  font-size: 25px;
+  font-weight: 800;
+  color: rgb(46, 44, 44);
+  padding-bottom: 5px;
+}
+.hotel-h5 {
+  font-size: 17px;
+  color: #c66995;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.hotel-p {
+  color: grey;
+}
+.hotel-btn {
+  background: #69c6ba;
+  border: none;
+  padding: 20px;
+  margin-left: 50%;
+}
+.hotel-btn a {
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+}
+
+/* form-2 */
+
+.navigation-section {
+  position: relative;
+  font-size: 0;
+}
+.form2-div {
+  width: 500px;
+  padding: 25px;
+  position: absolute;
+  right: 200px;
+  top: 0;
+}
+
+.form-2 {
+  width: 100%;
+}
+.f2-input {
+  /* display: inline-block; */
+  width: 98%;
+  border: 0;
+  /* border: 1px solid grey; */
+  padding-left: 10px;
+  background: #f5f5f5;
+}
+.f2-subject {
+  width: 100%;
+  border: 0;
+  /* border: 1px solid grey; */
+  padding-left: 10px;
+  background: #f5f5f5;
+}
+.f2-submit {
+  background: #69c6ba;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin: 15px 0;
+}
+.f2-textarea {
+  background: #f5f5f5;
+  border: 0;
+  font-weight: 700;
+  color: grey;
+}
+
+/* footer */
+
+.footer {
+  background: #e6e6e6;
+}
+.footer-txt {
+  font-weight: 600;
+  display: block;
+  background: #69c6ba;
+  color: white;
+  text-align: center;
+  padding: 35px 0;
+}
